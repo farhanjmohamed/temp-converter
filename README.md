@@ -39,23 +39,17 @@ Usage
 
 1.  Clone the repository:
 
-    sh
-
     Copy code
 
     `git clone https://github.com/your-username/terminal-temperature-converter.git`
 
 2.  Navigate to the project directory:
 
-    sh
-
     Copy code
 
     `cd terminal-temperature-converter`
 
 3.  Run the program:
-
-    sh
 
     Copy code
 
