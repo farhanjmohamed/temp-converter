@@ -15,9 +15,11 @@ fn main() {
     unit = unit.trim().to_lowercase();
 
     if unit == "c" {
-        println!("{}°c", new_temp);
+        let converted_c = (new_temp - 32) * 5 / 9;
+        println!("{}°C", converted_c);
     } else if unit == "f" {
-        println!("{}°f", new_temp);
+        let converted_f = (new_temp * 9 / 5) + 32;
+        println!("{}°F", converted_f);
     } else {
         println!("Select A Unit!");
     }
